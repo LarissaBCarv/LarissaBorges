@@ -201,169 +201,155 @@
 /*responsividade*/
 
 @media (max-width: 1024px) {
-  @media (max-width: 1024px) {
-    .intro {
-      font-size: 4rem;
-    }
-
-    .subtitle {
-      font-size: 2rem;
-    }
-
-    .big-logo {
-      max-width: 70%;
-    }
-
-    .mascot {
-      width: 280px;
-      right: 20px;
-
-      animation: floatHero 4s ease-in-out infinite;
-
-      filter: drop-shadow(0 20px 40px rgba(59, 130, 246, 0.25));
-
-      mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-      -webkit-mask-image: linear-gradient(
-        to bottom,
-        black 80%,
-        transparent 100%
-      );
-    }
+  .intro {
+    font-size: 4rem;
   }
 
-  @media (max-width: 768px) {
-    .hero {
-      padding: 80px 6% 0;
-      align-items: center;
-      text-align: center;
-    }
-
-    .intro {
-      font-size: 2.6rem;
-      text-align: center;
-      line-height: 1.2;
-    }
-
-    .subtitle {
-      font-size: 1.4rem;
-      text-align: center;
-    }
-
-    .big-logo {
-      max-width: 85%;
-      margin: 0 auto;
-    }
-
-    .hero-buttons {
-      flex-direction: column;
-      width: 100%;
-      max-width: 320px;
-    }
-
-    .btn {
-      width: 100%;
-    }
-
-    .line,
-    .hero-glow,
-    .hero-glow2,
-    .hero-shape,
-    .leaf,
-    .spark {
-      display: none;
-    }
-
-    .mascot {
-      display: block;
-      position: relative;
-      width: 260px;
-      margin: 50px auto -30px;
-
-      mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
-      -webkit-mask-image: linear-gradient(
-        to bottom,
-        black 75%,
-        transparent 100%
-      );
-
-      filter: drop-shadow(0 15px 30px rgba(59, 130, 246, 0.2));
-
-      animation: floatHero 4s ease-in-out infinite;
-    }
+  .subtitle {
+    font-size: 2rem;
   }
 
-  @media (max-width: 480px) {
-    .hero {
-      padding: 100px 20px 40px;
-      align-items: center;
-      text-align: center;
-      overflow: hidden;
-    }
+  .big-logo {
+    max-width: 70%;
+  }
 
-    .intro {
-      font-size: 1.9rem;
-      line-height: 1.2;
-      margin-bottom: 30px;
-      margin-top: 40px;
-    }
+  .hero-art {
+    width: 280px;
+    right: 20px;
 
-    .subtitle {
-      font-size: 1rem;
-      line-height: 1.4;
-      margin-bottom: 25px;
-      opacity: 0.85;
-    }
+    animation: floatHero 4s ease-in-out infinite;
 
-    .hero-buttons {
-      flex-direction: column;
-      gap: 12px;
-      width: 100%;
-      max-width: 300px;
-      align-items: center;
-    }
+    filter: drop-shadow(0 20px 40px rgba(59, 130, 246, 0.25));
 
-    .btn {
-      width: 100%;
-      font-size: 0.95rem;
-      padding: 14px;
-      border-radius: 16px;
-    }
-
-    .mascot {
-      display: block;
-      position: relative;
-
-      width: 280px;
-
-      margin: 50px auto -60px;
-
-      z-index: 2;
-
-      mask-image: linear-gradient(to bottom, black 72%, transparent 100%);
-      -webkit-mask-image: linear-gradient(
-        to bottom,
-        black 72%,
-        transparent 100%
-      );
-
-      filter: drop-shadow(0 20px 35px rgba(59, 130, 246, 0.22))
-        drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35));
-
-      animation: floatHero 4s ease-in-out infinite;
-    }
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
   }
 }
 
-/*animaçao*/
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 6% 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .big-logo {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .line,
+  .hero-glow,
+  .hero-glow2,
+  .hero-shape,
+  .leaf,
+  .spark {
+    display: none;
+  }
+
+  .hero-art {
+    display: block;
+    position: relative;
+    width: 260px;
+    margin: 50px auto -30px;
+
+    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+
+    filter: drop-shadow(0 15px 30px rgba(59, 130, 246, 0.2));
+
+    animation: floatHero 4s ease-in-out infinite;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 100px 20px 40px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .intro {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    opacity: 0.85;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .hero-art {
+    display: block;
+    position: relative;
+
+    width: 280px;
+
+    margin: 50px auto -60px;
+
+    z-index: 2;
+
+    mask-image: linear-gradient(to bottom, black 72%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 72%, transparent 100%);
+
+    filter: drop-shadow(0 20px 35px rgba(59, 130, 246, 0.22))
+      drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35));
+
+    animation: floatHero 4s ease-in-out infinite;
+  }
+}
 
 @keyframes floatHero {
   0% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
+
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
   }
+
   100% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
 }
