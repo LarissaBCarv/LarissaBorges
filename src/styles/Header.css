@@ -1,0 +1,144 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+  gap: 20px;
+
+  font-family: "Manrope", sans-serif;
+  color: #1c1919;
+
+  padding: 12px 40px;
+  margin-top: 5px;
+}
+
+.navBar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: #efece6;
+  text-decoration: none;
+}
+
+.navBar a {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  color: #fff;
+
+  cursor: pointer;
+
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 0;
+  outline: 0;
+
+  padding: 1rem;
+}
+
+.navBar a:before {
+  content: "";
+  display: inline-block;
+
+  height: 1px;
+  width: 0;
+
+  margin-right: 10px;
+
+  background-color: #fff;
+
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.navBar a:hover:before {
+  width: 3rem;
+}
+
+/*responsavidade*/
+
+@media (max-width: 1024px) {
+  .navBar {
+    padding: 12px 20px;
+  }
+
+  .navBar a {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navBar ul {
+    width: 100%;
+  }
+
+  .links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navBar a {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .navBar a:before {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 40px;
+  }
+
+  .navBar {
+    padding: 10px 15px;
+  }
+
+  .navBar a {
+    font-size: 0.8rem;
+  }
+}

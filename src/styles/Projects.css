@@ -1,0 +1,238 @@
+.projects-section {
+  padding: 60px 8% 40px;
+  min-height: 103vh;
+  background: #0d0d0d;
+  position: relative;
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-container h2 {
+  font-family: "Jura", sans-serif;
+  font-size: 4rem;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.projects-container p {
+  font-family: "Jura", sans-serif;
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+.featured-project {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #111;
+  box-shadow: 0 0 60px rgba(51, 130, 246, 0.35);
+  transition: 0.4s ease;
+}
+
+.featured-project:hover {
+  transform: translateY(-6px) scale(1.01);
+  cursor: pointer;
+}
+
+.projects-subtitle {
+  color: #aaa;
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.leavesProjects {
+  position: absolute;
+  opacity: 0.04;
+  width: 500px;
+  left: 0px;
+  bottom: -10px;
+  filter: blur(1px);
+  animation: floatLeaf 7s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.project-video {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-info {
+  padding: 20px;
+  background: #0b0b0b;
+  text-align: left;
+}
+
+.project-info h3 {
+  color: #4da3ff;
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.project-info p {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.project-tags {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-tags span {
+  background: #111;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.coming-soon {
+  text-align: center;
+  margin-top: 60px;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.img-mascoteProjetos {
+  position: absolute;
+  width: 270px;
+  right: 40px;
+  bottom: 20px;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+/* animação */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes floatLeaf {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  20% {
+    transform: translateY(-3px) rotate(0.4deg);
+  }
+  45% {
+    transform: translateY(-7px) rotate(1deg);
+  }
+  65% {
+    transform: translateY(-2px) rotate(-0.3deg);
+  }
+  85% {
+    transform: translateY(-5px) rotate(0.6deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+/*responsavidade*/
+
+@media (max-width: 1024px) {
+  .projects-container h2 {
+    font-size: 3rem;
+  }
+
+  .projects-container p {
+    font-size: 1.1rem;
+  }
+
+  .featured-project {
+    max-width: 380px;
+  }
+
+  .project-video {
+    height: 200px;
+  }
+
+  .img-mascoteProjetos {
+    width: 200px;
+    right: 20px;
+  }
+
+  .leavesProjects {
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 60px 6% 40px;
+    min-height: auto;
+  }
+
+  .projects-container h2 {
+    font-size: 2.4rem;
+  }
+
+  .projects-container p {
+    font-size: 1rem;
+  }
+
+  .featured-project {
+    max-width: 100%;
+  }
+
+  .project-video {
+    height: 180px;
+  }
+
+  .project-info {
+    padding: 16px;
+  }
+
+  .project-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
+  }
+
+  .img-mascoteProjetos,
+  .leavesProjects {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container h2 {
+    font-size: 2rem;
+  }
+
+  .projects-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .project-video {
+    height: 150px;
+  }
+
+  .project-tags span {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+}
