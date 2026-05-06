@@ -11,6 +11,14 @@
   text-align: center;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  margin-top: 4rem;
+}
+
 .projects-container h2 {
   font-family: "Jura", sans-serif;
   font-size: 4rem;
@@ -27,8 +35,6 @@
 .featured-project {
   position: relative;
   width: 100%;
-  max-width: 450px;
-  margin: 40px auto;
   border-radius: 28px;
   overflow: hidden;
   background: #111;
