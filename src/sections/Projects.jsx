@@ -6,6 +6,8 @@ export default function Projects() {
     {
       title: "Linggo",
 
+      deploy: "",
+
       description:
         "Plataforma de aprendizado de idiomas com foco em experiência intuitiva, interface moderna e usabilidade.",
 
@@ -16,6 +18,8 @@ export default function Projects() {
 
     {
       title: "Lúmina Studio",
+
+      deploy: "https://lumina-landing-page-one.vercel.app",
 
       description:
         "Landing page premium desenvolvida para uma clínica estética fictícia, com foco em design minimalista, experiência sofisticada e responsividade.",
@@ -61,7 +65,13 @@ export default function Projects() {
 
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div className="featured-project fade-up" key={index}>
+            <a
+              className="featured-project fade-up"
+              key={index}
+              href={project.deploy}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <video
                 src={project.video}
                 className="project-video"
@@ -82,7 +92,7 @@ export default function Projects() {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
