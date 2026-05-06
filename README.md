@@ -1,16 +1,38 @@
-# React + Vite
+# Larissa Borges — Portfólio Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio desenvolvido com foco em UI/UX, responsividade e experiência do usuário.
 
-Currently, two official plugins are available:
+O projeto foi criado para apresentar minhas habilidades em desenvolvimento front-end, unindo design e código em interfaces modernas, intuitivas e funcionais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## React Compiler
+- React
+- JavaScript
+- CSS3
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Funcionalidades
 
-## Expanding the ESLint configuration
+- Interface responsiva
+- Animações suaves
+- Floating menu interativo
+- Formulário funcional com EmailJS
+- Timeline profissional
+- Seção de stacks dinâmica
+- Microinterações e efeitos visuais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+(PRINTS AQUI)
+
+## 🔗 Deploy
+
+(Link do projeto)
+
+## 💡 Objetivo
+
+Construir uma experiência visual moderna que represente minha identidade como desenvolvedora front-end com foco em UI/UX.
+
+---
+
+Desenvolvido por Larissa Borges
