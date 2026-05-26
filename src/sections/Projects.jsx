@@ -17,6 +17,19 @@ export default function Projects() {
     },
 
     {
+      title: "Marêu",
+
+      deploy: "https://mareu.vercel.app/",
+
+      description:
+        "Landing page para marca de velas aromáticas, com foco em experiência sensorial, design sofisticado e navegação fluida.",
+
+      video: "/mareu.mp4",
+
+      tags: ["React", "UI/UX", "Frontend"],
+    },
+
+    {
       title: "Lúmina Studio",
 
       deploy: "https://lumina-landing-page-one.vercel.app",
