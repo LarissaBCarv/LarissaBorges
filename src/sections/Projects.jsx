@@ -32,7 +32,7 @@ export default function Projects() {
     {
       title: "Lúmina Studio",
 
-      deploy: "https://lumina-landing-page-one.vercel.app",
+      deploy: "https://lumina-studio-landing.vercel.app/",
 
       description:
         "Landing page premium desenvolvida para uma clínica estética fictícia, com foco em design minimalista, experiência sofisticada e responsividade.",
