@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/banner portfolio.png" alt="Larissa Borges Portfolio banner">
+  <img src="./docs/banner.png" alt="Larissa Borges Portfolio banner">
 </p>
 
 <h1 align="center">Larissa Borges — Portfolio</h1>
