@@ -173,6 +173,10 @@
   background: #25d366;
 }
 
+.instagram::before {
+  background: #e1306c;
+}
+
 @keyframes wave {
   0% {
     border-radius: 40% 60% 50% 50%;

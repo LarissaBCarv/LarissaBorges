@@ -89,6 +89,15 @@ export default function Contact() {
           >
             <img src="/icons/whatsapp.png" alt="WhatsApp" />
           </a>
+
+          <a
+            href="https://www.instagram.com/larissabdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="liquid-btn instagram"
+          >
+            <img src="/icons/instagram.png" alt="Instagram" />
+          </a>
         </div>
 
         <div className="contact-line" />

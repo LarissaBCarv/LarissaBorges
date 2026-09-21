@@ -112,7 +112,7 @@ html {
 .floating-tooltip {
   position: absolute;
 
-  right: 70px; /* distância do botão */
+  right: 70px;
   top: 50%;
 
   transform: translateY(-50%) translateX(10px);
